@@ -141,7 +141,7 @@ textarea {
    }
 
    img {
-
+     width: 100%;
    }
 
    figure {
@@ -764,7 +764,7 @@ input[type=button] {
     .faq-content {
         flex-basis: 35%;
   }
-  
+
   .faq h4,
   .faq p {
       font-size: 1.125em;
