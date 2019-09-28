@@ -145,7 +145,7 @@ textarea {
    }
 
    figure {
-
+     margin: 0;
    }
 
    address {
@@ -176,6 +176,14 @@ header {
 
 header .content-wrapper {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure {
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,6 +258,9 @@ footer .copyright {
 /*--Hero-Area--*/
 
 .hero-area {
+  background: url('../img/header-image.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -270,7 +281,7 @@ aside {
   flex-flow: row wrap;
 }
 
-aside .form{
+aside .form {
   margin-top: 30px;
 }
 
@@ -298,6 +309,8 @@ input[type=button] {
 /*--Features--*/
 
 .features {
+  background: url('../img/features-image.jpg') center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -530,8 +543,7 @@ input[type=button] {
     }
 
     header nav ul {
-      justify-content: space-between;;
-
+      justify-content: space-between;
     }
 
     .header-divider {
@@ -607,6 +619,7 @@ input[type=button] {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-direction: row;
     }
 
     footer .contact {
@@ -700,6 +713,21 @@ input[type=button] {
          line-height: 1.333;
      }
 
+     header figure {
+       width: 23%;
+     }
+
+     header nav {
+       width: 15%;
+     }
+
+     header nav ul {
+       justify-content: space-between;
+     }
+
+     .header-divider {
+       display: none;
+     }
   /*Hero*/
 
      .hero-area h1 {
@@ -743,6 +771,7 @@ input[type=button] {
     .mission h2,
     .contact-section .content-wrapper h2 {
         width: 100%;
+        font-size: 3em;
     }
 
     .contact-section .content-wrapper h2 {
