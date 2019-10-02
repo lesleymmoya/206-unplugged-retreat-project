@@ -160,7 +160,7 @@ textarea {
      margin: 50px 0;
    }
 
-/*------------Base Header/Footer Styles---------*/
+/* Base Header/Footer Styles */
 
 header,
 footer {
@@ -171,7 +171,7 @@ footer {
   flex-flow: row wrap;
 }
 
-/*-----Header------*/
+/* Header */
 
 header {
   padding: 15px 0;
@@ -221,7 +221,7 @@ header nav ul li {
   font-size: 1.125em;
 }
 
-/*------Footer--------*/
+/* Footer */
 
 footer {
   text-align: center;
@@ -264,9 +264,9 @@ footer .social-icons p i {
 footer .copyright {
   margin: 20px 0;
 }
-/*------------Mobile Styles - Homepage---------*/
+/* Mobile Styles - Homepage */
 
-/*--Hero-Area--*/
+/* Hero-Area */
 
 .hero-area {
   background: url('../img/header-image.jpg') center no-repeat;
@@ -281,7 +281,7 @@ footer .copyright {
   font-size: 2.25em;
 }
 
-/*--Aside--*/
+/* Aside */
 
 aside {
 
@@ -317,7 +317,7 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-/*--Features--*/
+/* Features */
 
 .features {
   background: url('../img/features-image.jpg') center no-repeat;
@@ -353,7 +353,7 @@ input[type=button] {
   margin: 0;
 }
 
-/*--Reviews--*/
+/* Reviews */
 
 .reviews {
   background-color: #2a423a;
@@ -372,9 +372,7 @@ input[type=button] {
   margin: 20px 0;
 }
 
-/*============================================================
-  About Page
-  ============================================================*/
+/* About */
 
   .mission {
     background-color: #527158;
@@ -411,9 +409,7 @@ input[type=button] {
  .contact-content p {
    margin: 0;
  }
-  /*============================================================
-    FAQ Page
-    ============================================================*/
+  /* FAQ */
 
   .faq {
     background-color: #527158;
@@ -682,9 +678,7 @@ input[type=button] {
     }
 }
 
-   /* ==========================================================================
-    About Page
-    ========================================================================== */
+   /* About */
 
    .mission-content {
      display: flex;
@@ -714,9 +708,7 @@ input[type=button] {
      font-size: 1.5em;
    }
 
-   /* ==========================================================================
-    FAQ Page
-    ========================================================================== */
+   /* FAQ */
 
    .faq .content-wrapper {
      justify-content: space-between;
@@ -796,9 +788,8 @@ input[type=button] {
          width: 42%;
      }
 
-     /* ==========================================================================
-   About Page
-   ========================================================================== */
+    /* About */
+
     .map figure {
       padding-bottom: 37.5%;
     }
@@ -817,9 +808,8 @@ input[type=button] {
       font-size: 1.875em;
     }
 
-/* ==========================================================================
-   FAQ Page
-   ========================================================================== */
+    /* FAQ */
+
     .faq h2 {
         width: 100%;
         font-size: 3em;
