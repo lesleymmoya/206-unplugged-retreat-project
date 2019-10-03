@@ -567,7 +567,7 @@ input[type=button] {
     }
 
     header nav {
-        width: 30%;
+        width: 20%;
     }
 
     header nav ul {
@@ -676,7 +676,6 @@ input[type=button] {
     footer .copyright {
         width: 100%;
     }
-}
 
    /* About */
 
@@ -733,7 +732,7 @@ input[type=button] {
 
   @media screen and (min-width:1200px) {
 
-      .content-wrapper: {
+      .content-wrapper {
         max-width: 960px;
      }
 
